@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Winder_Overhand_Ccd.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Winder_Overhand_Ccd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Winder_Overhand_Ccd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Winder_Overhand_CcdDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Func_Pro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="User_Define.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CV_Func_Pro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOC0640.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CV_Hik_Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MvCameraControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Buffer_Queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi_Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi_Text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure_Param.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell_Recorder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Header_Fold_Param.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PortDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi_Background.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Specs_Manage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Save_Queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP_Client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarm_Info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Running_Info_Recoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve_Draw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Multi_Heart_Sigal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntryDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Measure_ParamDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Heartbeat_Signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Harddisk_Storage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Harddisk_BandWidthDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_Buffer_Polling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pilot_Run_Check.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Power_On_Self_Test.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CExtDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bilateral_Rejudging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Image_MonitorDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuggingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi_Image2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GrrDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsaDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Src_Image_Save_Queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserCalibraDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalibraDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gdi_Image3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CV_Func_Machine_Learning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Winder_Overhand_Ccd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Winder_Overhand_CcdDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="User_Func_Pro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CV_Hik_Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Buffer_Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi_Image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi_Text.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure_Param.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell_Recorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Header_Fold_Param.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PortDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi_Background.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Specs_Manage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Save_Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP_Client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarm_Info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Running_Info_Recoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve_Draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Multi_Heart_Sigal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntryDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Measure_ParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Heartbeat_Signal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Harddisk_Storage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Harddisk_BandWidthDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_Buffer_Polling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pilot_Run_Check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Power_On_Self_Test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bilateral_Rejudging.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Image_MonitorDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DebuggingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi_Image2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GrrDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsaDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Src_Image_Save_Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserCalibraDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalibraDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gdi_Image3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PreviewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Winder_Overhand_Ccd.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CV_Func_Pro.lib" />
+    <Library Include="IOC0640.lib" />
+    <Library Include="MvCameraControl.lib" />
+    <Library Include="CV_Func_Machine_Learning.lib" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0716BBC6-01FC-4313-BA8A-6ABC82D8A821}</ProjectGuid>
+    <RootNamespace>Winder_Overhand_Ccd</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Winder_Overhand_Ccd.ico" />
+    <None Include="res\Winder_Overhand_Ccd.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Alarm_Info.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="Bilateral_Rejudging.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CalibraDlg.h" />
+    <ClInclude Include="Cell_Recorder.h" />
+    <ClInclude Include="CExtDlg.h" />
+    <ClInclude Include="Curve_Draw.h" />
+    <ClInclude Include="CV_Func_Machine_Learning.h" />
+    <ClInclude Include="CV_Func_Pro.h" />
+    <ClInclude Include="CV_Hik_Camera.h" />
+    <ClInclude Include="DebuggingDlg.h" />
+    <ClInclude Include="EntryDlg.h" />
+    <ClInclude Include="Gdi.h" />
+    <ClInclude Include="Gdi_Background.h" />
+    <ClInclude Include="Gdi_Image.h" />
+    <ClInclude Include="Gdi_Image2.h" />
+    <ClInclude Include="Gdi_Image3.h" />
+    <ClInclude Include="Gdi_Text.h" />
+    <ClInclude Include="GrrDlg.h" />
+    <ClInclude Include="Harddisk_BandWidthDlg.h" />
+    <ClInclude Include="Harddisk_Storage.h" />
+    <ClInclude Include="Header_Fold_Param.h" />
+    <ClInclude Include="Heartbeat_Signal.h" />
+    <ClInclude Include="Image_Buffer_Polling.h" />
+    <ClInclude Include="Image_Buffer_Queue.h" />
+    <ClInclude Include="Image_MonitorDlg.h" />
+    <ClInclude Include="Image_Save_Queue.h" />
+    <ClInclude Include="IOC0640.H" />
+    <ClInclude Include="LaserCalibraDlg.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="Measure_Param.h" />
+    <ClInclude Include="Measure_ParamDlg.h" />
+    <ClInclude Include="MsaDlg.h" />
+    <ClInclude Include="Multi_Heart_Sigal.h" />
+    <ClInclude Include="MvCameraControl.h" />
+    <ClInclude Include="Pilot_Run_Check.h" />
+    <ClInclude Include="PortDlg.h" />
+    <ClInclude Include="Power_On_Self_Test.h" />
+    <ClInclude Include="PreviewDlg.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Running_Info_Recoder.h" />
+    <ClInclude Include="SpecsDlg.h" />
+    <ClInclude Include="Specs_Manage.h" />
+    <ClInclude Include="Src_Image_Save_Queue.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TCP_Client.h" />
+    <ClInclude Include="ToolDlg.h" />
+    <ClInclude Include="User_Define.h" />
+    <ClInclude Include="User_Func_Pro.h" />
+    <ClInclude Include="Winder_Overhand_Ccd.h" />
+    <ClInclude Include="Winder_Overhand_CcdDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Alarm_Info.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="Bilateral_Rejudging.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CalibraDlg.cpp" />
+    <ClCompile Include="Cell_Recorder.cpp" />
+    <ClCompile Include="Curve_Draw.cpp" />
+    <ClCompile Include="CV_Hik_Camera.cpp" />
+    <ClCompile Include="DebuggingDlg.cpp" />
+    <ClCompile Include="EntryDlg.cpp" />
+    <ClCompile Include="Gdi.cpp" />
+    <ClCompile Include="Gdi_Background.cpp" />
+    <ClCompile Include="Gdi_Image.cpp" />
+    <ClCompile Include="Gdi_Image2.cpp" />
+    <ClCompile Include="Gdi_Image3.cpp" />
+    <ClCompile Include="Gdi_Text.cpp" />
+    <ClCompile Include="GrrDlg.cpp" />
+    <ClCompile Include="Harddisk_BandWidthDlg.cpp" />
+    <ClCompile Include="Harddisk_Storage.cpp" />
+    <ClCompile Include="Header_Fold_Param.cpp" />
+    <ClCompile Include="Heartbeat_Signal.cpp" />
+    <ClCompile Include="Image_Buffer_Polling.cpp" />
+    <ClCompile Include="Image_Buffer_Queue.cpp" />
+    <ClCompile Include="Image_MonitorDlg.cpp" />
+    <ClCompile Include="Image_Save_Queue.cpp" />
+    <ClCompile Include="LaserCalibraDlg.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="Measure_Param.cpp" />
+    <ClCompile Include="Measure_ParamDlg.cpp" />
+    <ClCompile Include="MsaDlg.cpp" />
+    <ClCompile Include="Multi_Heart_Sigal.cpp" />
+    <ClCompile Include="Pilot_Run_Check.cpp" />
+    <ClCompile Include="PortDlg.cpp" />
+    <ClCompile Include="Power_On_Self_Test.cpp" />
+    <ClCompile Include="PreviewDlg.cpp" />
+    <ClCompile Include="Running_Info_Recoder.cpp" />
+    <ClCompile Include="SpecsDlg.cpp" />
+    <ClCompile Include="Specs_Manage.cpp" />
+    <ClCompile Include="Src_Image_Save_Queue.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TCP_Client.cpp" />
+    <ClCompile Include="ToolDlg.cpp" />
+    <ClCompile Include="User_Func_Pro.cpp" />
+    <ClCompile Include="Winder_Overhand_Ccd.cpp" />
+    <ClCompile Include="Winder_Overhand_CcdDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Winder_Overhand_Ccd.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="CV_Func_Machine_Learning.lib" />
+    <Library Include="CV_Func_Pro.lib" />
+    <Library Include="IOC0640.lib" />
+    <Library Include="MvCameraControl.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Winder_Overhand_Ccd.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
